@@ -49,4 +49,4 @@ Replace main.py with the name of your script. The script will:
 
 Analysis and Results
 
-The results directory contains output graphs and a detailed analysis report in PDF format. This report discusses the methodology, performance evaluation, and insights gained from the linear regression models developed.
+The results directory contains output graphs and a detailed analysis report in PDF format. This report discusses the methodology, performance evaluation, and insights gained from the linear regression models developed. You can check them [out here](https://github.com/mynenivarun/ML/blob/main/app.ipynb%20-%20Colaboratory.pdf/) or [from here.](https://colab.research.google.com/drive/1MxTVAOfO-QmkP3TEIgEYvTdQJ6EpvvUR?usp=sharing)
