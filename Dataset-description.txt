@@ -1,0 +1,32 @@
+
+
+
+Parkinson's dataset:
+
+- Parkinson's disease is a neurodegenerative disorder that primarily affects movement. It occurs when there is a loss of dopamine-producing neurons in the brain. Dopamine is a neurotransmitter that plays a crucial role in    coordinating smooth and controlled movements. Also, It can affect voice and speech in several ways, leading to changes that impact communication.
+
+- This dataset is composed of a range of biomedical voice measurements from 42 people with early-stage Parkinson's disease recruited to a six-month trial of a telemonitoring device for remote symptom progression monitoring.
+
+Feature Information:
+
+1. subject# - Integer uniquely identifying each subject.
+2. age - Subject's age.
+3. sex - Subject's gender, where '0' represents male and '1' represents female.
+4. test_time - Time since recruitment into the trial, with the integer part indicating the number of days since recruitment.
+5. motor_UPDRS - Clinician's motor UPDRS score, linearly interpolated.
+6. total_UPDRS - Clinician's total UPDRS score, linearly interpolated.
+7. Biomedical voice measures:
+    o Jitter(%), Jitter(Abs), Jitter:RAP, Jitter:PPQ5, Jitter:DDP - Measures of variation in fundamental frequency. These measures tell us about the regularity or irregularity in the pitch (tone) of the voice.
+
+    o Shimmer, Shimmer(dB), Shimmer:APQ3, Shimmer:APQ5, Shimmer:APQ11, Shimmer:DDA - Measures of variation in amplitude. These measures indicate how smooth or shaky the amplitude (loudness) of the voice is.
+
+    o NHR, HNR - Two measures of the ratio of noise to tonal components in the voice. These measures help us understand the balance between clear voice and background noise.
+
+    o RPDE - A nonlinear dynamical complexity measure. This measure gives insights into the complexity of voice patterns.
+
+    o DFA - Signal fractal scaling exponent. This feature describes how the voice signal scales, providing information about its structure.
+
+    o PPE - A nonlinear measure of fundamental frequency variation. This measure reflects non-linear variations in pitch, contributing to our understanding of voice changes.
+
+
+In summary, these features help analyze different aspects of the voice, such as pitch, amplitude, noise, complexity, structure, and non-linear variations. 
