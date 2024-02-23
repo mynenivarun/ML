@@ -5,17 +5,20 @@ This project implements linear regression models from scratch to predict the pro
 Objectives
 
 `Linear Regression with One Variable: Predict motor_UPDRS using the PPE feature.`
+
 `Linear Regression with Two Variables: Extend the model to include the NHR feature and analyze the impact on performance.`
+
 `Stepwise Linear Regression: Employ both forward and backward stepwise regression to identify the most predictive features out of a given set.`
+
 `Regularization and Feature Scaling: Investigate the effects of regularization and feature scaling on the best-performing model.`
 
 Setup and Running
 Prerequisites
 
-    `Python 3.x`
-    `NumPy`
-    `pandas`
-    `Matplotlib`
+`Python 3.12`
+`NumPy`
+`pandas`
+`Matplotlib`
 
 Ensure you have the above prerequisites installed on your system. You can install them using pip:
 
@@ -37,8 +40,11 @@ bash
 Replace main.py with the name of your script. The script will:
 
 `Load the dataset.`
+
 `Perform linear regression analysis with varying numbers of input features.`
+
 `Evaluate model performance using metrics such as Mean Squared Error (MSE), R-squared, and Adjusted R-squared.`
+
 `Display graphs for visual analysis of the model performance.`
 
 Analysis and Results
